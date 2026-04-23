@@ -59,7 +59,7 @@
 [AXIOM INFO] ======================================================================
 
 =================================================================
-  AXIOM-DINOSAUR v4.0   TRUTH FILE SUMMARY
+  AXIOM-DINOSAUR v1.0   TRUTH FILE SUMMARY
 =================================================================
   Specimen ID   : AXIOM_2E97D9C5EB
   Taxa          : Edmontosaurus
