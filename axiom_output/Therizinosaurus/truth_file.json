@@ -1,0 +1,756 @@
+{
+  "specimen_id": "AXIOM_A6A016C549",
+  "taxa": "Therizinosaurus",
+  "clade": "theropod",
+  "physical_properties": {
+    "locomotion": {
+      "hip_height_m": 2.481,
+      "stride_length_m": 5.572,
+      "estimated_speed_ms": 4.76,
+      "estimated_speed_kmh": 17.1,
+      "froude_number": 0.932,
+      "gait": "trot",
+      "speed_method": "Alexander (1976) / Thulborn (1990)"
+    },
+    "jaw_feeding": {
+      "skull_length_mm": 420.0,
+      "skull_height_mm": 320.0,
+      "bite_force_N": 732.0,
+      "bite_force_kgf": 74.6,
+      "method": "Calibrated theropod regression (Bates & Falkingham 2012)"
+    },
+    "limb_biomechanics": {
+      "femoral_robusticity_index": 0.3506,
+      "limb_strength_index": 3.4e-05
+    },
+    "body_geometry": {
+      "body_length_est_m": 9.46,
+      "neck_length_est_m": 1.32,
+      "tail_length_est_m": 3.59
+    }
+  },
+  "pbdb_record_count": 2,
+  "skeletal_integrity": "60.0% Measured / 40.0% Inferred",
+  "total_bones_in_model": 25,
+  "incalculable_bones": [],
+  "biomechanical_validity": 1.0,
+  "biomech_valid": true,
+  "mass_prediction_kg": 4836.0,
+  "mass_volumetric_kg": 2760.9,
+  "body_volume_m3": 3.2481,
+  "bio_density_kg_m3": 1060.0,
+  "center_of_gravity_m": [
+    0.5205,
+    0.9356,
+    0.0
+  ],
+  "truthimatics": {
+    "axiom_I_entropy": 0.9299,
+    "axiom_II_spectral_gap": 0.1938,
+    "axiom_II_symmetry_pct": 100.0,
+    "axiom_III_r2": 0.4331,
+    "axiom_IV_lomb_fap": 1.0,
+    "axiom_IV_peak_hz": 0.0,
+    "axiom_VI_trophic": "herbivore",
+    "axiom_VI_confidence": 1.0,
+    "axiom_VII_bfi": 0.14,
+    "axiom_VII_fat_kg": 677.04,
+    "axiom_VIII_muscle_kg": 2418.0,
+    "axiom_VIII_caudofem_N": 488814.0,
+    "axiom_IX_auto_mass_kg": 4836.0,
+    "axiom_IX_violation": false,
+    "tci": 0.63,
+    "full_paint": false
+  },
+  "body_composition": {
+    "total_mass_kg": 4836.0,
+    "skeletal_mass_kg": 435.24,
+    "muscle_mass_kg": 2418.0,
+    "visceral_mass_kg": 677.04,
+    "fat_mass_kg": 677.04,
+    "integument_mass_kg": 193.44,
+    "body_fat_index": 0.14,
+    "bmr_watts": 941.4,
+    "field_metabolic_watts": 2353.5,
+    "thermal_class": "mesotherm",
+    "trophic_guild": "herbivore",
+    "trophic_confidence": 1.0,
+    "trophic_logic": "F_bite/Mg=0.02 & clade=theropod & stride_ratio=1.75 \u2192 herbivore",
+    "caudofemoralis_force_N": 488814.0,
+    "mass_violation": false,
+    "auto_corrected_mass_kg": 4836.0
+  },
+  "bone_manifest": {
+    "coracoid": {
+      "length_mm": 287.3,
+      "diameter_mm": 217.3,
+      "slenderness": 1.322,
+      "volume_cm3": 5435.49,
+      "estimated_mass_g": 6785.1,
+      "centroid_m": [
+        2.2176,
+        1.3608,
+        0.2688
+      ],
+      "feature_int16": [
+        2353,
+        3560,
+        1082,
+        3562,
+        1111
+      ],
+      "infer_method": "constraint",
+      "confidence": 0.4,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.176,
+        "sigma_bending_MPa": 0.311,
+        "sigma_total_MPa": 0.487,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "femur": {
+      "length_mm": 1120.0,
+      "diameter_mm": 125.0,
+      "slenderness": 8.96,
+      "volume_cm3": 7009.68,
+      "estimated_mass_g": 8750.2,
+      "centroid_m": [
+        0.1456,
+        0.8512,
+        0.3472
+      ],
+      "feature_int16": [
+        9174,
+        2047,
+        7339,
+        4593,
+        1433
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 3.443,
+      "stress": {
+        "sigma_axial_MPa": 3.79,
+        "sigma_bending_MPa": 45.582,
+        "sigma_total_MPa": 49.372,
+        "safety_factor": 3.443,
+        "status": "WARNING"
+      }
+    },
+    "femur_right": {
+      "length_mm": 1120.0,
+      "diameter_mm": 125.0,
+      "slenderness": 8.96,
+      "volume_cm3": 7009.68,
+      "estimated_mass_g": 8750.2,
+      "centroid_m": [
+        0.1456,
+        0.8512,
+        -0.3472
+      ],
+      "feature_int16": [
+        9174,
+        2047,
+        7339,
+        4593,
+        1433
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 3.443
+    },
+    "fibula": {
+      "length_mm": 840.0,
+      "diameter_mm": 38.0,
+      "slenderness": 22.105,
+      "volume_cm3": 342.96,
+      "estimated_mass_g": 359.7,
+      "centroid_m": [
+        0.1456,
+        -0.2576,
+        0.3472
+      ],
+      "feature_int16": [
+        6881,
+        622,
+        18108,
+        224,
+        58
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.0,
+        "sigma_bending_MPa": 0.0,
+        "sigma_total_MPa": 0.0,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "fibula_right": {
+      "length_mm": 840.0,
+      "diameter_mm": 38.0,
+      "slenderness": 22.105,
+      "volume_cm3": 342.96,
+      "estimated_mass_g": 359.7,
+      "centroid_m": [
+        0.1456,
+        -0.2576,
+        -0.3472
+      ],
+      "feature_int16": [
+        6881,
+        622,
+        18108,
+        224,
+        58
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 15.0
+    },
+    "humerus": {
+      "length_mm": 2440.0,
+      "diameter_mm": 92.0,
+      "slenderness": 26.522,
+      "volume_cm3": 8272.29,
+      "estimated_mass_g": 10326.3,
+      "centroid_m": [
+        2.744,
+        1.2768,
+        0.3696
+      ],
+      "feature_int16": [
+        19987,
+        1507,
+        21725,
+        5421,
+        1691
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 1.66,
+      "stress": {
+        "sigma_axial_MPa": 2.799,
+        "sigma_bending_MPa": 99.631,
+        "sigma_total_MPa": 102.43,
+        "safety_factor": 1.66,
+        "status": "CRITICAL"
+      }
+    },
+    "humerus_right": {
+      "length_mm": 2440.0,
+      "diameter_mm": 92.0,
+      "slenderness": 26.522,
+      "volume_cm3": 8272.29,
+      "estimated_mass_g": 10326.3,
+      "centroid_m": [
+        2.744,
+        1.2768,
+        -0.3696
+      ],
+      "feature_int16": [
+        19987,
+        1507,
+        21725,
+        5421,
+        1691
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 1.66
+    },
+    "ilium": {
+      "length_mm": 710.0,
+      "diameter_mm": 148.0,
+      "slenderness": 4.797,
+      "volume_cm3": 6229.34,
+      "estimated_mass_g": 7776.1,
+      "centroid_m": [
+        0.112,
+        1.6688,
+        0.28
+      ],
+      "feature_int16": [
+        5816,
+        2424,
+        3929,
+        4082,
+        1273
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 10.222,
+      "stress": {
+        "sigma_axial_MPa": 2.704,
+        "sigma_bending_MPa": 13.927,
+        "sigma_total_MPa": 16.631,
+        "safety_factor": 10.222,
+        "status": "OK"
+      }
+    },
+    "ilium_right": {
+      "length_mm": 710.0,
+      "diameter_mm": 148.0,
+      "slenderness": 4.797,
+      "volume_cm3": 6229.34,
+      "estimated_mass_g": 7776.1,
+      "centroid_m": [
+        0.112,
+        1.6688,
+        -0.28
+      ],
+      "feature_int16": [
+        5816,
+        2424,
+        3929,
+        4082,
+        1273
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 10.222
+    },
+    "ischium": {
+      "length_mm": 580.0,
+      "diameter_mm": 95.0,
+      "slenderness": 6.105,
+      "volume_cm3": 2096.7,
+      "estimated_mass_g": 2617.3,
+      "centroid_m": [
+        -0.056,
+        1.3552,
+        0.2464
+      ],
+      "feature_int16": [
+        4751,
+        1556,
+        5001,
+        1374,
+        428
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 9.797,
+      "stress": {
+        "sigma_axial_MPa": 2.297,
+        "sigma_bending_MPa": 15.057,
+        "sigma_total_MPa": 17.353,
+        "safety_factor": 9.797,
+        "status": "OK"
+      }
+    },
+    "metacarpal": {
+      "length_mm": 395.0,
+      "diameter_mm": 55.0,
+      "slenderness": 7.182,
+      "volume_cm3": 178.31,
+      "estimated_mass_g": 146.7,
+      "centroid_m": [
+        3.9312,
+        0.672,
+        0.4592
+      ],
+      "feature_int16": [
+        3235,
+        901,
+        5883,
+        116,
+        24
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 2.586,
+      "stress": {
+        "sigma_axial_MPa": 7.357,
+        "sigma_bending_MPa": 58.381,
+        "sigma_total_MPa": 65.738,
+        "safety_factor": 2.586,
+        "status": "WARNING"
+      }
+    },
+    "metatarsal": {
+      "length_mm": 490.9,
+      "diameter_mm": 80.0,
+      "slenderness": 6.135,
+      "volume_cm3": 1258.84,
+      "estimated_mass_g": 1571.4,
+      "centroid_m": [
+        0.252,
+        -0.9296,
+        0.3024
+      ],
+      "feature_int16": [
+        4021,
+        1310,
+        5025,
+        824,
+        257
+      ],
+      "infer_method": "constraint",
+      "confidence": 0.65,
+      "safety_factor": 5.056,
+      "stress": {
+        "sigma_axial_MPa": 9.249,
+        "sigma_bending_MPa": 24.373,
+        "sigma_total_MPa": 33.622,
+        "safety_factor": 5.056,
+        "status": "OK"
+      }
+    },
+    "phalanx": {
+      "length_mm": 720.0,
+      "diameter_mm": 42.0,
+      "slenderness": 17.143,
+      "volume_cm3": 153.22,
+      "estimated_mass_g": 118.6,
+      "centroid_m": [
+        4.3232,
+        0.3808,
+        0.4816
+      ],
+      "feature_int16": [
+        5898,
+        688,
+        14043,
+        100,
+        19
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.0,
+        "sigma_bending_MPa": 0.0,
+        "sigma_total_MPa": 0.0,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "pubis": {
+      "length_mm": 620.0,
+      "diameter_mm": 80.0,
+      "slenderness": 7.75,
+      "volume_cm3": 1589.39,
+      "estimated_mass_g": 1984.0,
+      "centroid_m": [
+        0.1232,
+        1.2768,
+        0.2464
+      ],
+      "feature_int16": [
+        5078,
+        1310,
+        6348,
+        1041,
+        325
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 5.631,
+      "stress": {
+        "sigma_axial_MPa": 3.239,
+        "sigma_bending_MPa": 26.952,
+        "sigma_total_MPa": 30.19,
+        "safety_factor": 5.631,
+        "status": "OK"
+      }
+    },
+    "radius": {
+      "length_mm": 1820.0,
+      "diameter_mm": 72.0,
+      "slenderness": 25.278,
+      "volume_cm3": 3779.17,
+      "estimated_mass_g": 4717.5,
+      "centroid_m": [
+        3.472,
+        0.9632,
+        0.4256
+      ],
+      "feature_int16": [
+        14908,
+        1179,
+        20706,
+        2476,
+        772
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 3.043,
+      "stress": {
+        "sigma_axial_MPa": 1.599,
+        "sigma_bending_MPa": 54.264,
+        "sigma_total_MPa": 55.863,
+        "safety_factor": 3.043,
+        "status": "WARNING"
+      }
+    },
+    "radius_right": {
+      "length_mm": 1820.0,
+      "diameter_mm": 72.0,
+      "slenderness": 25.278,
+      "volume_cm3": 3779.17,
+      "estimated_mass_g": 4717.5,
+      "centroid_m": [
+        3.472,
+        0.9632,
+        -0.4256
+      ],
+      "feature_int16": [
+        14908,
+        1179,
+        20706,
+        2476,
+        772
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 3.043
+    },
+    "rib": {
+      "length_mm": 720.0,
+      "diameter_mm": 38.0,
+      "slenderness": 18.947,
+      "volume_cm3": 416.45,
+      "estimated_mass_g": 519.9,
+      "centroid_m": [
+        1.232,
+        1.2432,
+        0.28
+      ],
+      "feature_int16": [
+        5898,
+        622,
+        15521,
+        272,
+        85
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.342,
+        "sigma_bending_MPa": 10.43,
+        "sigma_total_MPa": 10.772,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "scapula": {
+      "length_mm": 580.0,
+      "diameter_mm": 225.0,
+      "slenderness": 2.578,
+      "volume_cm3": 11761.24,
+      "estimated_mass_g": 14681.6,
+      "centroid_m": [
+        2.184,
+        1.6128,
+        0.2912
+      ],
+      "feature_int16": [
+        4751,
+        3686,
+        2111,
+        7707,
+        2405
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.164,
+        "sigma_bending_MPa": 0.567,
+        "sigma_total_MPa": 0.73,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "scapula_right": {
+      "length_mm": 580.0,
+      "diameter_mm": 225.0,
+      "slenderness": 2.578,
+      "volume_cm3": 11761.24,
+      "estimated_mass_g": 14681.6,
+      "centroid_m": [
+        2.184,
+        1.6128,
+        -0.2912
+      ],
+      "feature_int16": [
+        4751,
+        3686,
+        2111,
+        7707,
+        2405
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 15.0
+    },
+    "skull": {
+      "length_mm": 420.0,
+      "diameter_mm": 320.0,
+      "slenderness": 1.312,
+      "volume_cm3": 17226.99,
+      "estimated_mass_g": 21504.4,
+      "centroid_m": [
+        3.248,
+        1.6912,
+        0.0
+      ],
+      "feature_int16": [
+        3440,
+        5242,
+        1075,
+        11289,
+        3523
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 0.0,
+        "sigma_bending_MPa": 0.0,
+        "sigma_total_MPa": 0.0,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    },
+    "tibia": {
+      "length_mm": 870.0,
+      "diameter_mm": 95.0,
+      "slenderness": 9.158,
+      "volume_cm3": 3145.04,
+      "estimated_mass_g": 3926.0,
+      "centroid_m": [
+        0.1176,
+        -0.2576,
+        0.336
+      ],
+      "feature_int16": [
+        7126,
+        1556,
+        7501,
+        2061,
+        643
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 3.755,
+      "stress": {
+        "sigma_axial_MPa": 6.562,
+        "sigma_bending_MPa": 38.717,
+        "sigma_total_MPa": 45.278,
+        "safety_factor": 3.755,
+        "status": "WARNING"
+      }
+    },
+    "tibia_right": {
+      "length_mm": 870.0,
+      "diameter_mm": 95.0,
+      "slenderness": 9.158,
+      "volume_cm3": 3145.04,
+      "estimated_mass_g": 3926.0,
+      "centroid_m": [
+        0.1176,
+        -0.2576,
+        -0.336
+      ],
+      "feature_int16": [
+        7126,
+        1556,
+        7501,
+        2061,
+        643
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 3.755
+    },
+    "ulna": {
+      "length_mm": 1880.0,
+      "diameter_mm": 78.0,
+      "slenderness": 24.103,
+      "volume_cm3": 4581.49,
+      "estimated_mass_g": 5719.1,
+      "centroid_m": [
+        3.4832,
+        0.952,
+        0.4312
+      ],
+      "feature_int16": [
+        15400,
+        1277,
+        19744,
+        3002,
+        936
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 3.74,
+      "stress": {
+        "sigma_axial_MPa": 1.363,
+        "sigma_bending_MPa": 44.087,
+        "sigma_total_MPa": 45.45,
+        "safety_factor": 3.74,
+        "status": "WARNING"
+      }
+    },
+    "ulna_right": {
+      "length_mm": 1880.0,
+      "diameter_mm": 78.0,
+      "slenderness": 24.103,
+      "volume_cm3": 4581.49,
+      "estimated_mass_g": 5719.1,
+      "centroid_m": [
+        3.4832,
+        0.952,
+        -0.4312
+      ],
+      "feature_int16": [
+        15400,
+        1277,
+        19744,
+        3002,
+        936
+      ],
+      "infer_method": "symmetry",
+      "confidence": 0.836,
+      "safety_factor": 3.74
+    },
+    "vertebra": {
+      "length_mm": 210.0,
+      "diameter_mm": 148.0,
+      "slenderness": 1.419,
+      "volume_cm3": 1842.48,
+      "estimated_mass_g": 2300.0,
+      "centroid_m": [
+        1.26,
+        1.68,
+        0.0
+      ],
+      "feature_int16": [
+        1720,
+        2424,
+        1162,
+        1207,
+        376
+      ],
+      "infer_method": "measured",
+      "confidence": 0.88,
+      "safety_factor": 15.0,
+      "stress": {
+        "sigma_axial_MPa": 2.704,
+        "sigma_bending_MPa": 5.149,
+        "sigma_total_MPa": 7.853,
+        "safety_factor": 15.0,
+        "status": "OK"
+      }
+    }
+  },
+  "warnings": [],
+  "reconstruction_latency_ms": 16009.78
+}

@@ -1,0 +1,17 @@
+{
+  "axiom_version": "4.0",
+  "benchmark_timestamp": "2026-05-01T00:04:46.664732+00:00",
+  "host_python": "3.13.2 (main, Mar 13 2025, 14:29:07) [GCC 14.2.0]",
+  "taxa_count": 58,
+  "success_count": 58,
+  "args": {
+    "limit": 100,
+    "output_dir": "benchmarks",
+    "taxa_dir": "axiom_output",
+    "jobs": 2,
+    "seed": 42,
+    "shuffle": false,
+    "clade": null
+  },
+  "main_py_sha256": "edc93e505b137bca658e3b47d63d4834352376953e7c96e5a47d88e1127a487a"
+}

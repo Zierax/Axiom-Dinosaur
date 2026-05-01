@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-05-01T00:04:46.428386+00:00",
+  "n_total": 58,
+  "n_success": 58,
+  "n_errors": 0,
+  "elapsed_s": 798.72,
+  "mean_tci": 0.6718775862068964,
+  "median_mass_log_error": 0.21083311685633266,
+  "mean_speed_error_pct": 34.67117310858622,
+  "diet_accuracy_pct": 65.51724137931035,
+  "mean_latency_s": 27.274825862068962,
+  "n_full_paint": 0,
+  "by_clade": {
+    "theropod": {
+      "n": 23,
+      "mean_tci": 0.6743565217391305,
+      "median_mass_log_error": 0.2740883677049518,
+      "mean_speed_error_pct": 42.2193373412871,
+      "diet_accuracy_pct": 43.47826086956522,
+      "mean_latency_s": 17.062912173913045
+    },
+    "sauropod": {
+      "n": 11,
+      "mean_tci": 0.6912090909090909,
+      "median_mass_log_error": 0.17800091848057112,
+      "mean_speed_error_pct": 43.45454545454546,
+      "diet_accuracy_pct": 100.0,
+      "mean_latency_s": 29.305140909090916
+    },
+    "ornithischian": {
+      "n": 18,
+      "mean_tci": 0.6736333333333334,
+      "median_mass_log_error": 0.11319836305928321,
+      "mean_speed_error_pct": 20.759078884078885,
+      "diet_accuracy_pct": 66.66666666666666,
+      "mean_latency_s": 36.300661111111104
+    },
+    "pterosaur": {
+      "n": 6,
+      "mean_tci": 0.6216666666666667,
+      "median_mass_log_error": 1.3675422735205767,
+      "mean_speed_error_pct": 28.54166666666667,
+      "diet_accuracy_pct": 83.33333333333334,
+      "mean_latency_s": 35.62074499999999
+    }
+  },
+  "errors": [],
+  "metric_columns": [
+    "mass_pred_kg",
+    "mass_lit_kg",
+    "mass_log_error",
+    "vol_m3",
+    "mass_vol_kg",
+    "vol_delta_pct",
+    "speed_kmh",
+    "speed_lit_kmh",
+    "speed_error_pct",
+    "tci",
+    "axiom_I",
+    "axiom_II",
+    "axiom_III",
+    "axiom_IV",
+    "cog_x",
+    "cog_y",
+    "skeletal_pct",
+    "muscle_pct",
+    "fat_pct",
+    "bite_force_N",
+    "femoral_fri",
+    "latency_ms",
+    "pbdb_records",
+    "diet_correct",
+    "body_length_m",
+    "hip_height_m"
+  ],
+  "args": {
+    "limit": 100,
+    "output_dir": "benchmarks",
+    "taxa_dir": "axiom_output",
+    "jobs": 2,
+    "seed": 42,
+    "shuffle": false,
+    "clade": null
+  }
+}
